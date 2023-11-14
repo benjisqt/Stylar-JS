@@ -1,0 +1,5 @@
+{
+    "token": "bot token here",
+    "uri": "mongo uri here",
+    "mongoenabled": true
+}

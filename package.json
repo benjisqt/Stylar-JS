@@ -1,0 +1,31 @@
+{
+  "name": "stylar-js",
+  "version": "1.0.0",
+  "description": "Repackaged version of OG Stylar, written in JavaScript!",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StylarBot/Stylar-JS.git"
+  },
+  "keywords": [
+    "bot",
+    "discordbot",
+    "utility",
+    "moderation",
+    "usefulbot",
+    "useful"
+  ],
+  "author": "benjisqt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StylarBot/Stylar-JS/issues"
+  },
+  "homepage": "https://github.com/StylarBot/Stylar-JS#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "mongoose": "^8.0.0"
+  }
+}
