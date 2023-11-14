@@ -57,9 +57,11 @@ async function HandleCommands(client) {
 }
 
 async function HandleMongo(uri) {
+    const models = fs.readdirSync(`./src/models`).filter((file) => file.endsWith(".js"));
+
     const connection = await mongoose.connect(uri);
     if(connection) {
-        return console.log(`Connected to Stylar Database.`);
+        return console.log(`Connected to Stylar Database, loaded ${models.length} models.`);
     } else {
         return console.log(`There was an error connecting to the MongoDB Database.`);
     }
